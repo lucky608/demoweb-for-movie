@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(36, 47, 63);
+    
+    
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie{
+    
+    width: 287px;
+    border-radius: 3px;
+    background-color: rgb(9, 43, 94);
+    margin: 0.5rem;
+    overflow: hidden;
+    box-shadow:0 4px 5px  rgb(18, 20, 20);
+    position: relative;
+
+}
+
+.movie img{
+     max-width: 100%;
+    
+}
+.movie info h2{
+    margin: 0;
+    
+   
+}
+.detail h3{
+    font-size: 17px;
+    margin-top: 20px;
+    
+}
+.detail{
+    text-align: center;
+     border-radius:3px solid rgb(26, 27, 26) ;
+}
+.borders{
+    text-align: center;
+    border-radius:3px solid rgb(26, 27, 26) ;
+}
+.d{
+    background-color: rgb(181, 187, 196);
+    width: 100%;
+    border: 3px solid rgb(28, 32, 28);
+    
+}
+.detail{
+    background-color: rgb(161, 228, 245);
+    padding: 2rem;
+    position: absolute;
+    max-height: 60%;
+    overflow:scroll;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    transition: transform 1s ease-in; 
+}
+.movie:hover .detail{
+    transform: translateY(0%);
+}
+
+
+.navcolor{
+    margin-top: -5px;
+    background-color: rgb(3, 10, 20);
+}
+
+
+.movie-info{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding:0rem 1rem;
+    letter-spacing: 0.5px;
+
+
+}
+.movie-details{
+   
+    max-width: 100%;
+
+}
+.movie-info span{
+   background-color: gray;
+   border-radius: 2px;
+   
+   padding: 0.25rem 0.3rem;
+   height: 100%;
+   width: 30px;
+   margin: 6px;
+   
+ 
+}
+.movie-info span.gold{
+       color: green;
+}  
+.movie-info span.orange{
+    color: orange;
+}  
+.movie-info span.red{
+    color: red;
+}  
+
